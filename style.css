@@ -98,7 +98,7 @@ nav button {
   transition: 0.4s ease-in-out;
 }
 
-button:hover {
+nav button:hover {
   background: -webkit-linear-gradient(
     var(--primary-color),
     var(--ternary-color)
@@ -158,6 +158,16 @@ button:hover {
 .left button:hover {
   border: 3px solid var(--white);
   color: var(--white);
+  background: -webkit-linear-gradient(
+    var(--primary-color),
+    var(--ternary-color)
+  );
+  /*-webkit-*/
+  background-clip: text;
+  -webkit-text-fill-color: white;
+  /* transform: scale(1); */
+  cursor: pointer;
+  /* border: 2px solid var(--secondary-color); */
 }
 
 /* right contnet or image */
@@ -212,12 +222,12 @@ button:hover {
 
 .feature_sec {
   padding: 1em;
-  width: 100%;
+  width: 100vw;
 }
 
 .row_head {
   height: auto;
-  width: 100%;
+  width: 95vw;
   display: flex;
   flex-wrap: wrap;
   padding: 4vh;
@@ -293,11 +303,6 @@ button:hover {
 .card h3 {
   font-size: 1.3em;
   margin: 1em 0 1.4em 0;
-}
-
-.card h3 {
-  font-size: 1.3em;
-  margin: 1em 0 1.4em 0;
   font-weight: 600;
   letter-spacing: 0.3px;
   background: -webkit-linear-gradient(
@@ -309,6 +314,8 @@ button:hover {
 }
 
 .card p {
+  font-size: 1.2vw;
+  /* font-weight: 600; */
   line-height: 2em;
   color: #625a71;
 }
@@ -321,4 +328,187 @@ button:hover {
   height: 2.25em;
   width: 2.25em;
   border-color: var(--secondary-color);
+}
+
+.health_sec {
+  /* background-image: linear-gradient(
+    to left top,
+    var(--primary-color),
+    var(--ternary-color)
+  ); */
+  width: 100vw;
+  height: 190vh;
+  padding: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8vw;
+
+  div {
+    width: 80%;
+    height: 40%;
+  }
+}
+
+.health_div {
+  display: flex;
+  box-shadow: 0 0 2.5em hsl(176, 100%, 38%);
+  border-radius: 1em;
+  background-color: #ffffff;
+
+  .left_hdiv {
+    width: 40%;
+    height: 100%;
+    padding: 2vw;
+    align-content: center;
+
+    img {
+      width: 110%;
+    }
+  }
+
+  .right_hdiv {
+    width: 60%;
+    height: 100%;
+    padding: 3vw;
+
+    h3 {
+      font-size: 2em;
+      margin: 0.2em 0 0.2em 0;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+      background: -webkit-linear-gradient(
+        var(--primary-color),
+        var(--ternary-color)
+      );
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p {
+      padding: 4px;
+      font-size: 1.2vw;
+      /* font-weight: 600; */
+      line-height: 2em;
+      color: #625a71;
+    }
+
+    .buttons_h {
+      height: auto;
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      padding: 1vw;
+      gap: 1vw;
+      button {
+        width: 80%;
+        font-size: 1.5vw;
+        padding: 1vw 2vw;
+        background-image: linear-gradient(
+          var(--primary-color),
+          var(--ternary-color)
+        );
+        color: var(--white);
+        border: 3px solid var(--white);
+        border-radius: 30px;
+        font-weight: 700;
+        transition: 0.2s ease-in-out;
+      }
+
+      button:hover {
+        border: 3px solid var(--secondary-color);
+        color: var(--white);
+        background: -webkit-linear-gradient(
+          var(--primary-color),
+          var(--ternary-color)
+        );
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.breed_div {
+  background-color: #ffffff;
+  display: flex;
+  box-shadow: 0 0 2.5em rgba(0, 0, 0, 0.15);
+  border-radius: 1em;
+
+  .left_bdiv {
+    width: 60%;
+    height: 100%;
+    padding: 3vw;
+    text-align: right;
+
+    h3 {
+      font-size: 2em;
+      margin: 0.2em 0 0.2em 0;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+      background: -webkit-linear-gradient(
+        var(--primary-color),
+        var(--ternary-color)
+      );
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p {
+      padding: 4px;
+      font-size: 1.2vw;
+      line-height: 2em;
+      color: #625a71;
+    }
+
+    .buttons_h {
+      height: auto;
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      padding: 1vw;
+      gap: 1vw;
+
+      button {
+        width: 80%;
+        font-size: 1.5vw;
+        padding: 1vw 2vw;
+        background-image: linear-gradient(
+          var(--primary-color),
+          var(--ternary-color)
+        );
+        color: var(--white);
+        border: 3px solid var(--white);
+        border-radius: 30px;
+        font-weight: 700;
+        transition: 0.2s ease-in-out;
+      }
+
+      button:hover {
+        border: 3px solid var(--secondary-color);
+        color: var(--white);
+        background: -webkit-linear-gradient(
+          var(--primary-color),
+          var(--ternary-color)
+        );
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .right_bdiv {
+    width: 40%;
+    height: 100%;
+    padding: 2vw;
+    align-content: center;
+    justify-content: flex-start;
+
+    img {
+      width: 100%;
+    }
+  }
 }
