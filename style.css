@@ -79,10 +79,6 @@ nav ul li a {
   font-weight: bold;
 }
 
-nav ul li a:hover {
-  color: var(--highlight-color);
-}
-
 /* cta styling */
 nav button {
   border: 2px solid;
@@ -353,7 +349,7 @@ nav button:hover {
 
 .health_div {
   display: flex;
-  box-shadow: 0 0 2.5em hsl(176, 100%, 38%);
+  box-shadow: 0 0 2.5em rgba(0, 0, 0, 0.15);
   border-radius: 1em;
   background-color: #ffffff;
 
@@ -401,7 +397,8 @@ nav button:hover {
       width: 100%;
       padding: 1vw;
       gap: 1vw;
-      button {
+      a {
+        text-align: center;
         width: 80%;
         font-size: 1.5vw;
         padding: 1vw 2vw;
@@ -416,7 +413,7 @@ nav button:hover {
         transition: 0.2s ease-in-out;
       }
 
-      button:hover {
+      a:hover {
         border: 3px solid var(--secondary-color);
         color: var(--white);
         background: -webkit-linear-gradient(
@@ -471,7 +468,8 @@ nav button:hover {
       padding: 1vw;
       gap: 1vw;
 
-      button {
+      a {
+        text-align: center;
         width: 80%;
         font-size: 1.5vw;
         padding: 1vw 2vw;
@@ -484,9 +482,10 @@ nav button:hover {
         border-radius: 30px;
         font-weight: 700;
         transition: 0.2s ease-in-out;
+        text-decoration: none;
       }
 
-      button:hover {
+      a:hover {
         border: 3px solid var(--secondary-color);
         color: var(--white);
         background: -webkit-linear-gradient(

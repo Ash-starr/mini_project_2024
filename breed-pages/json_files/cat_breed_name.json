@@ -1,0 +1,143 @@
+{
+  "categories": [
+    {
+      "name": "Short Coat",
+      "breeds": [
+        {
+          "name": "Abyssinium cat",
+          "photo": "images/abyssinium.jpg"
+        },
+        {
+          "name": "American Shorthair cat",
+          "photo": "images/american-shorthair.jpg"
+        },
+        {
+          "name": "Bengal cat",
+          "photo": "images/bengal.jpg"
+        },
+        {
+          "name": "Bombay cat",
+          "photo": "images/bombay.jpg"
+        },
+        {
+          "name": "British Shorthair cat",
+          "photo": "images/british-shorthair.jpg"
+        },
+        {
+          "name": "Devon Rex",
+          "photo": "images/devon-rex.jpg"
+        },
+        {
+          "name": "Havana Brown",
+          "photo": "images/havana-brown.jpg"
+        },
+        {
+          "name": "Manx",
+          "photo": "images/manx.jpg"
+        },
+        {
+          "name": "Oriental Shorthair",
+          "photo": "images/oriental-shorthair.jpg"
+        },
+        {
+          "name": "Russian Blue",
+          "photo": "images/russian-blue.jpg"
+        },
+        {
+          "name": "Siamese",
+          "photo": "images/siamese.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Medium Coat",
+      "breeds": [
+        {
+          "name": "American Bobtail",
+          "photo": "images/american-bobtail.jpg"
+        },
+        {
+          "name": "American Wirehair cat",
+          "photo": "images/american-wirehair.jpg"
+        },
+        {
+          "name": "Burmese cat",
+          "photo": "images/burmese.jpg"
+        },
+        {
+          "name": "Cyprus",
+          "photo": "images/cyprus.jpg"
+        },
+        {
+          "name": "Egyptian Mau",
+          "photo": "images/egyptian-mau.jpg"
+        },
+        {
+          "name": "Laperm",
+          "photo": "images/laperm.jpg"
+        },
+        {
+          "name": "Scottish Fold",
+          "photo": "images/scottish-fold.jpg"
+        },
+        {
+          "name": "Siberian cat",
+          "photo": "images/siberian.jpg"
+        },
+        {
+          "name": "Somali cat",
+          "photo": "images/somali.jpg"
+        },
+        {
+          "name": "Tonkinese",
+          "photo": "images/tonkinese.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Long Coat",
+      "breeds": [
+        {
+          "name": "American Curl cat",
+          "photo": "images/american-curl.jpg"
+        },
+        {
+          "name": "Balinese-Javanese cat",
+          "photo": "images/balinese-javanese.jpg"
+        },
+        {
+          "name": "Birman cat",
+          "photo": "images/birman.jpg"
+        },
+        {
+          "name": "Chartreux cat",
+          "photo": "images/chartreux.jpg"
+        },
+        {
+          "name": "British Longhair",
+          "photo": "images/british-longhair.jpg"
+        },
+        {
+          "name": "Himalayan cat",
+          "photo": "images/himalayan.jpg"
+        },
+        {
+          "name": "Maine Coon",
+          "photo": "images/maine-coon.jpg"
+        },
+        {
+          "name": "Nebelung cat",
+          "photo": "images/nebelung.jpg"
+        },
+        {
+          "name": "Norwegian cat",
+          "photo": "images/norwegian.jpg"
+        },
+        {
+          "name": "Persian cat",
+          "photo": "images/persian.jpg"
+        }
+      ]
+    }
+  ]
+}
