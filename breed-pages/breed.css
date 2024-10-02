@@ -107,7 +107,8 @@ nav {
   justify-content: center;
   gap: 20px;
 
-  .box1 {
+  /* CAT Breed Page hero section */
+  .box1-cat {
     height: 100%;
     width: 25%;
     .circle {
@@ -125,7 +126,7 @@ nav {
     align-items: center;
   }
 
-  .box2 {
+  .box2-cat {
     padding: 10px;
     height: 100%;
     width: 50%;
@@ -147,7 +148,7 @@ nav {
     }
   }
 
-  .box3 {
+  .box3-cat {
     height: 100%;
     width: 25%;
     align-items: center;
@@ -162,7 +163,64 @@ nav {
         width: auto;
       }
     }
-    /* background-color: blue; */
+  }
+
+  .box1-dog {
+    height: 100%;
+    width: 25%;
+    .circle {
+      height: 95%;
+      width: 95%;
+      background-color: rgba(17, 17, 17, 0.1);
+      border-radius: 85% 15% 25% 75% / 27% 69% 31% 73%;
+      position: relative;
+
+      img {
+        height: 100%;
+        width: auto;
+      }
+    }
+    /* background-color: aqua; */
+    align-items: center;
+  }
+
+  .box2-dog {
+    padding: 10px;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    /* background-color: antiquewhite; */
+
+    h1 {
+      font-size: 5vw;
+      line-height: 6vw;
+
+      span {
+        color: var(--highlight-color);
+        font-size: 5vw;
+      }
+    }
+    p {
+      color: var(--white);
+      font-size: 1.3vw;
+    }
+  }
+
+  .box3-dog {
+    height: 100%;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    .circle {
+      height: 95%;
+      width: 95%;
+      background-color: rgba(17, 17, 17, 0.1);
+      border-radius: 37% 63% 60% 40% / 71% 46% 54% 29%;
+      img {
+        height: 100%;
+        width: auto;
+      }
+    }
   }
 }
 
