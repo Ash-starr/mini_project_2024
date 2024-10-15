@@ -23,3 +23,49 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+const dropdownButtons = document.querySelectorAll(".dropdown-btn");
+
+dropdownButtons.forEach((button) => {
+  button.addEventListener("click", function () {
+    const content = this.nextElementSibling;
+    const arrow = this.querySelector(".arrow");
+
+    // Toggle the dropdown content display
+    if (content.style.display === "block") {
+      content.style.display = "none";
+      arrow.classList.remove("rotate");
+      this.classList.remove("active"); // Remove active class
+    } else {
+      content.style.display = "block";
+      arrow.classList.add("rotate");
+      this.classList.add("active"); // Add active class
+    }
+  });
+});
+
+let currentSlide = 0;
+const slides = document.querySelectorAll(".slide");
+
+function showSlide(index) {
+  slides.forEach((slide, i) => {
+    slide.classList.remove("active");
+    if (i === index) {
+      slide.classList.add("active");
+    }
+  });
+}
+
+function moveSlide(direction) {
+  currentSlide += direction;
+  if (currentSlide >= slides.length) {
+    currentSlide = 0; // Loop back to the first slide
+  }
+  if (currentSlide < 0) {
+    currentSlide = slides.length - 1; // Loop back to the last slide
+  }
+  showSlide(currentSlide);
+}
+
+// Initial display of the first slide
+showSlide(currentSlide);
