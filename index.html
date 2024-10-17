@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HOME-PawPrintPradise</title>
   <link rel="icon" type="image/png" href="./img/logo.png" sizes="180x180">
+  <script src="./script.js" defer></script>
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -24,7 +25,7 @@
         <li class="background-color"><a href="#">BLOGS</a></li>
       </ul>
       <!-- cta -->
-      <button type="button">Join</button>
+      <button id="openModalBtn" type="button">Join</button>
     </nav>
 
     <!-- hero section content -->
@@ -183,6 +184,27 @@
       </div>
     </div>
   </section>
+
+
+  <!-- join modal view -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" id="closeModalBtn">&times;</span>
+      <div class="community-join-section">
+        <h2>Join Our Pet-Loving Community!</h2>
+        <p>Connect with fellow pet owners, share stories, and get exclusive pet care tips!</p>
+        <ul>
+          <li>🐾 <strong>Meet Pet Lovers Like You:</strong> Dog, cat, or exotic pet – everyone’s welcome!</li>
+          <li>🐾 <strong>Share & Learn:</strong> Get advice and share your pet's stories.</li>
+          <li>🐾 <strong>Exclusive Perks:</strong> Members-only content and discounts.</li>
+          <li>🐾 <strong>Free to Join:</strong> It’s easy and fun, with no cost to you!</li>
+        </ul>
+        <button id="joinButton" onclick="window.open('https://discord.gg/GV2trb5Ubu','_blank')">Join Now</button>
+      </div>
+    </div>
+  </div>
+
+
 </body>
 
 </html>
