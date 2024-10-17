@@ -1,0 +1,61 @@
+[
+  {
+    "cats": [
+      {
+        "id": 3,
+        "name": "Bengal cat",
+        "photo": "../img/cat_breeds/bengal.jpeg",
+        "about": "The Bengal cat is a breed of hybrid cat created from crossing of an Asian leopard cat (Prionailurus bengalensis) with domestic cats, especially the spotted Egyptian Mau. It is then usually bred with a breed that demonstrates a friendlier personality, because after breeding a domesticated cat with a wildcat, its friendly personality may not manifest in the kitten. The breed's name derives from the leopard cat's taxonomic name.The Bengal is a sleek, muscular cat with a wild appearance, enhanced by the bold marbling and spotting on their thick, luxurious coat. Despite their striking appearance, physically there is nothing extreme about their build or structure, as this is a well-balanced cat without any exaggerated features, smallish ears, wedge shaped head, neat paws and athletic outline.",
+        "KeyFacts": {
+          "originCountry": "United States",
+          "coat": "Short coat",
+          "sizeCategory": "8-15 pounds",
+          "avgLifeExpectancy": "12 to 16 years",
+          "height": "8-15 inches",
+          "weight": "8-15 pounds"
+        },
+        "grooming": "Weekly brushing with a soft bristle brush",
+        "commonHealthIssues": [
+          "Progressive Retinal Atrophy",
+          "Dental diseases",
+          "Chronic Renal Failure"
+        ],
+        "behavior": [
+          "Affectionate but independent",
+          "Love for water",
+          "Hunting instincts",
+          "Vocalisation"
+        ],
+        "training": [
+          "Stop aggressive play",
+          "Be patient",
+          "Keep sessions short",
+          "Use positive reinforcement"
+        ]
+      },
+      {
+        "id": 12,
+        "name": " American Bobtail  Cat",
+        "photo": "../img/cat_breeds/american-bobtail.jpg",
+        "about": "This cat's original appearance genetics were modified in the breed to form a new and improved strain which comes in essentially all colors and coat types. The breed was first recognized by The International Cat Association (TICA, US-based), in 1989. The breed has been accepted for championship competition by TICA, the Cat Fanciers' Association (CFA, also US-based) and the American Cat Fanciers Association (ACFA).While the typically “bobcat-“ or “ocelot”-like spotted coat patterning is the most basal coloration seen on the breed, many other colors and patterns exist (both in long and shorthair varieties), including black, blue, brindle, brown, calico, chocolate, cinnamon, fawn, lilac, pied, red-and-cream, peach or orange tabby or tortoiseshell, all with or without varying amounts of all-white fur on the chest, neck, legs or underside.",
+        "KeyFacts": {
+          "originCountry": "United State",
+          "coat": "Medium coat",
+          "sizeCategory": "7-16 pounds",
+          "avgLifeExpectancy": "13 to 18 years",
+          "height": "9-10 inches",
+          "weight": "7-16 pounds"
+        },
+        "grooming": "American Bobtails require regular brushing to keep their coats clean and healthy. Longhaired American Bobtails should be brushed weekly, while medium-haired varieties should be brushed twice a month. ",
+        "commonHealthIssues": ["Heart Disease", "Allergies"],
+        "behavior": "American Bobtail cats are known for being social, intelligent, and affectionate.",
+        "training": [
+          "Provide a scratching post",
+          "Mental stimulation",
+          "Socialization",
+          "Litter box training"
+        ]
+      }
+    ]
+  }
+]

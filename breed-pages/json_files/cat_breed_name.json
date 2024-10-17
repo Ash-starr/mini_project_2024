@@ -5,47 +5,58 @@
       "breeds": [
         {
           "name": "Abyssinian cat",
-          "photo": "../img/cat_breeds/cats-nobg/abyssinian.png"
+          "photo": "../img/cat_breeds/cats-nobg/abyssinian.png",
+          "id": 1
         },
         {
           "name": "American Shorthair cat",
-          "photo": "../img/cat_breeds/cats-nobg/american-shorthair.png"
+          "photo": "../img/cat_breeds/cats-nobg/american-shorthair.png",
+          "id": 2
         },
         {
           "name": "Bengal cat",
-          "photo": "../img/cat_breeds/cats-nobg/bengal.png"
+          "photo": "../img/cat_breeds/cats-nobg/bengal.png",
+          "id": 3
         },
         {
           "name": "Bombay cat",
-          "photo": "../img/cat_breeds/cats-nobg/bombay.png"
+          "photo": "../img/cat_breeds/cats-nobg/bombay.png",
+          "id": 4
         },
         {
           "name": "British Shorthair cat",
-          "photo": "../img/cat_breeds/cats-nobg/british-shorthair.png"
+          "photo": "../img/cat_breeds/cats-nobg/british-shorthair.png",
+          "id": 5
         },
         {
           "name": "Devon Rex",
-          "photo": "../img/cat_breeds/cats-nobg/devon-rex.png"
+          "photo": "../img/cat_breeds/cats-nobg/devon-rex.png",
+          "id": 6
         },
         {
           "name": "Havana Brown",
-          "photo": "../img/cat_breeds/cats-nobg/havana-brown.png"
+          "photo": "../img/cat_breeds/cats-nobg/havana-brown.png",
+          "id": 7
         },
         {
           "name": "Manx",
-          "photo": "../img/cat_breeds/cats-nobg/manx.png"
+          "photo": "../img/cat_breeds/cats-nobg/manx.png",
+          "id": 8
         },
         {
           "name": "Oriental Shorthair",
-          "photo": "../img/cat_breeds/cats-nobg/oriental-shorthair.png"
+          "photo": "../img/cat_breeds/cats-nobg/oriental-shorthair.png",
+          "id": 9
         },
         {
           "name": "Russian Blue",
-          "photo": "../img/cat_breeds/cats-nobg/russian-blue.png"
+          "photo": "../img/cat_breeds/cats-nobg/russian-blue.png",
+          "id": 10
         },
         {
           "name": "Siamese",
-          "photo": "../img/cat_breeds/cats-nobg/siamese.png"
+          "photo": "../img/cat_breeds/cats-nobg/siamese.png",
+          "id": 11
         }
       ]
     },
@@ -54,43 +65,53 @@
       "breeds": [
         {
           "name": "American Bobtail",
-          "photo": "../img/cat_breeds/cats-nobg/american-bobtail.png"
+          "photo": "../img/cat_breeds/cats-nobg/american-bobtail.png",
+          "id": 12
         },
         {
           "name": "American Wirehair cat",
-          "photo": "../img/cat_breeds/cats-nobg/american-wirehair.png"
+          "photo": "../img/cat_breeds/cats-nobg/american-wirehair.png",
+          "id": 13
         },
         {
           "name": "Burmese cat",
-          "photo": "../img/cat_breeds/cats-nobg/burmese.png"
+          "photo": "../img/cat_breeds/cats-nobg/burmese.png",
+          "id": 14
         },
         {
           "name": "Cyprus",
-          "photo": "../img/cat_breeds/cats-nobg/cyprus.png"
+          "photo": "../img/cat_breeds/cats-nobg/cyprus.png",
+          "id": 15
         },
         {
           "name": "Egyptian Mau",
-          "photo": "../img/cat_breeds/cats-nobg/egyptian-mau.png"
+          "photo": "../img/cat_breeds/cats-nobg/egyptian-mau.png",
+          "id": 16
         },
         {
           "name": "Laperm",
-          "photo": "../img/cat_breeds/cats-nobg/laperm.png"
+          "photo": "../img/cat_breeds/cats-nobg/laperm.png",
+          "id": 17
         },
         {
           "name": "Scottish Fold",
-          "photo": "../img/cat_breeds/cats-nobg/scottish-fold.png"
+          "photo": "../img/cat_breeds/cats-nobg/scottish-fold.png",
+          "id": 18
         },
         {
           "name": "Siberian cat",
-          "photo": "../img/cat_breeds/cats-nobg/siberian.png"
+          "photo": "../img/cat_breeds/cats-nobg/siberian.png",
+          "id": 19
         },
         {
           "name": "Somali cat",
-          "photo": "../img/cat_breeds/cats-nobg/somali.png"
+          "photo": "../img/cat_breeds/cats-nobg/somali.png",
+          "id": 20
         },
         {
           "name": "Tonkinese",
-          "photo": "../img/cat_breeds/cats-nobg/tonkinese.png"
+          "photo": "../img/cat_breeds/cats-nobg/tonkinese.png",
+          "id": 21
         }
       ]
     },
@@ -99,43 +120,53 @@
       "breeds": [
         {
           "name": "American Curl cat",
-          "photo": "../img/cat_breeds/cats-nobg/american-curl.png"
+          "photo": "../img/cat_breeds/cats-nobg/american-curl.png",
+          "id": 22
         },
         {
           "name": "Javanese cat",
-          "photo": "../img/cat_breeds/cats-nobg/javanese.png"
+          "photo": "../img/cat_breeds/cats-nobg/javanese.png",
+          "id": 23
         },
         {
           "name": "Birman cat",
-          "photo": "../img/cat_breeds/cats-nobg/birman.png"
+          "photo": "../img/cat_breeds/cats-nobg/birman.png",
+          "id": 24
         },
         {
           "name": "Chartreux cat",
-          "photo": "../img/cat_breeds/cats-nobg/chartreux.png"
+          "photo": "../img/cat_breeds/cats-nobg/chartreux.png",
+          "id": 25
         },
         {
           "name": "British Longhair",
-          "photo": "../img/cat_breeds/cats-nobg/british-longhair.png"
+          "photo": "../img/cat_breeds/cats-nobg/british-longhair.png",
+          "id": 26
         },
         {
           "name": "Himalayan cat",
-          "photo": "../img/cat_breeds/cats-nobg/himalayan.png"
+          "photo": "../img/cat_breeds/cats-nobg/himalayan.png",
+          "id": 27
         },
         {
           "name": "Maine Coon",
-          "photo": "../img/cat_breeds/cats-nobg/maine-coon.png"
+          "photo": "../img/cat_breeds/cats-nobg/maine-coon.png",
+          "id": 28
         },
         {
           "name": "Nebelung cat",
-          "photo": "../img/cat_breeds/cats-nobg/nebelung.png"
+          "photo": "../img/cat_breeds/cats-nobg/nebelung.png",
+          "id": 29
         },
         {
           "name": "Norwegian cat",
-          "photo": "../img/cat_breeds/cats-nobg/norwegian.png"
+          "photo": "../img/cat_breeds/cats-nobg/norwegian.png",
+          "id": 30
         },
         {
           "name": "Persian cat",
-          "photo": "../img/cat_breeds/cats-nobg/persian.png"
+          "photo": "../img/cat_breeds/cats-nobg/persian.png",
+          "id": 31
         }
       ]
     }
