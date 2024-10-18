@@ -13,19 +13,27 @@
 <body>
    <!-- Header section -->
    <header>
-      <!--  navbar -->
+      <!-- navbar -->
       <nav>
          <!-- logo -->
          <h2 class="logo">LOgo</h2>
          <!-- navbar option -->
          <ul>
-            <li class="background-color"><a href="#">HOME</a></li>
-            <li class="background-color"><a href="#">FOR DOGS</a></li>
-            <li class="background-color"><a href="#">FOR CATS</a></li>
+            <li class="background-color"><a href="/index.html">HOME</a></li>
+            <li class="background-color">FOR DOGS <div class="dropdown-content">
+                  <a href="#">Puppies</a>
+                  <a href="#">Breeds</a>
+               </div>
+            </li>
+            <li class="background-color">FOR CATS <div class="dropdown-content">
+                  <a href="../puppy-kitten/kitten.html">Kittens</a>
+                  <a href="./cat-breeds.html">Breeds</a>
+               </div>
+            </li>
             <li class="background-color"><a href="#">BLOGS</a></li>
          </ul>
          <!-- cta -->
-         <button type="button">Join</button>
+         <button id="openModalBtn" type="button">Join</button>
       </nav>
 
       <!-- Message -->
@@ -120,6 +128,91 @@
       <!-- cards container -->
       <div class="cards-container"></div>
    </div>
+
+   <!-- join modal view -->
+   <div id="modal" class="modal">
+      <div class="modal-content">
+         <span class="close-btn" id="closeModalBtn">&times;</span>
+         <div class="community-join-section">
+            <h2>Join Our Pet-Loving Community!</h2>
+            <p>Connect with fellow pet owners, share stories, and get exclusive pet care tips!</p>
+            <ul>
+               <li>🐾 <strong>Meet Pet Lovers Like You:</strong> Dog, cat, or exotic pet – everyone’s welcome!</li>
+               <li>🐾 <strong>Share & Learn:</strong> Get advice and share your pet's stories.</li>
+               <li>🐾 <strong>Exclusive Perks:</strong> Members-only content and discounts.</li>
+               <li>🐾 <strong>Free to Join:</strong> It’s easy and fun, with no cost to you!</li>
+            </ul>
+            <button id="joinButton" onclick="window.open('https://discord.gg/GV2trb5Ubu','_blank')">Join Now</button>
+         </div>
+      </div>
+   </div>
+
+   <!-- footer -->
+   <footer class="footer-distributed">
+
+      <div class="footer-left">
+
+         <h3>PawPrint<span>Paradise</span></h3>
+
+         <p class="footer-links">
+            <a href="#" class="link-1">Home</a>
+
+            <a href="/puppy-kitten/kitten.html">Kittens</a>
+
+            <a href="#">Puppies</a>
+
+            <a href="/breed-pages/dog-breeds.html">Dog Breed</a>
+
+            <a href="/breed-pages/cat-breeds.html">Cat Breed</a>
+
+            <a href="#">Blogs</a>
+         </p>
+
+         <p class="footer-company-name">PawPrintPradise © 2024</p>
+      </div>
+
+      <div class="footer-center">
+
+         <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+         </div>
+
+         <div>
+            <i class="fa fa-phone"></i>
+            <p>+1.555.555.5555</p>
+         </div>
+
+         <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:support@company.com">pawprintparadise@company.com</a></p>
+         </div>
+
+      </div>
+
+      <div class="footer-right">
+
+         <p class="footer-company-about">
+            <span>About the company</span>
+            PawPrintParadise is your trusted source for all things pets. We provide expert tips, breed information, and
+            pet
+            care advice to help you give your furry friends the best life. Whether you're a new or experienced pet
+            parent,
+            we’re here to support you every step of the way!
+         </p>
+
+         <div class="footer-icons">
+
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+
+         </div>
+
+      </div>
+
+   </footer>
 
 </body>
 

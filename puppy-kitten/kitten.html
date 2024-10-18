@@ -15,19 +15,27 @@
 
    <!-- Header section -->
    <header>
-      <!--  navbar -->
+      <!-- navbar -->
       <nav>
          <!-- logo -->
          <h2 class="logo">LOgo</h2>
          <!-- navbar option -->
          <ul>
-            <li class="background-color"><a href="#">HOME</a></li>
-            <li class="background-color"><a href="#">FOR DOGS</a></li>
-            <li class="background-color"><a href="#">FOR CATS</a></li>
+            <li class="background-color"><a href="/index.html">HOME</a></li>
+            <li class="background-color">FOR DOGS <div class="dropdown-content">
+                  <a href="#">Puppies</a>
+                  <a href="../breed-pages/dog-breeds.html">Breeds</a>
+               </div>
+            </li>
+            <li class="background-color">FOR CATS <div class="dropdown-content">
+                  <a href="#">Kittens</a>
+                  <a href="../breed-pages/cat-breeds.html">Breeds</a>
+               </div>
+            </li>
             <li class="background-color"><a href="#">BLOGS</a></li>
          </ul>
          <!-- cta -->
-         <button type="button">Join</button>
+         <button id="openModalBtn" type="button">Join</button>
       </nav>
 
       <!-- hero section content -->
@@ -60,7 +68,6 @@
          <li class="tab-link" data-tab="getting-prepared"><i class="fas fa-tasks"></i><span>Getting Prepared</span></li>
          <li class="tab-link" data-tab="feeding"><i class="fas fa-utensils"></i><span>Feeding</span></li>
          <li class="tab-link" data-tab="health"><i class="fas fa-plus-square"></i><span>Health</span></li>
-         <li class="tab-link" data-tab="growth-stages"><i class="fas fa-chart-line"></i><span>Growth Stages</span></li>
          <li class="tab-link" data-tab="training"><i class="fas fa-heart"></i><span>Training</span></li>
          <li class="tab-link" data-tab="grooming"><i class="fas fa-paw"></i><span>Grooming</span></li>
       </ul>
@@ -565,7 +572,7 @@
             <!-- Content-1 -->
             <div class="content-1">
                <div class="left">
-                  <img src="../img/cat-6.jpg" alt="cat-1">
+                  <img src="../img/cat-1.jpg" alt="cat-1">
                </div>
                <div class="right">
                   <h1>Training your kitten</h1>
@@ -600,7 +607,7 @@
                         them to hone their agility can also help to keep them mentally stimulated.</p>
                   </div>
                   <div class="image">
-                     <img src="../img/cat-1.jpg" alt="Kitten 1">
+                     <img src="../img/cat-8.jpg" alt="Kitten 1">
                   </div>
                </div>
                <div class="slide">
@@ -612,7 +619,7 @@
                         unacceptable, before their claws and teeth are fully developed</p>
                   </div>
                   <div class="image">
-                     <img src="kitten2.jpg" alt="Kitten 2">
+                     <img src="../img/cat-9.jpg" alt="Kitten 2">
                   </div>
                </div>
                <div class="slide">
@@ -624,7 +631,7 @@
                         and cope with new situations, so they stay calm and don't react aggressively</p>
                   </div>
                   <div class="image">
-                     <img src="kitten3.jpg" alt="Kitten 3">
+                     <img src="../img/cat-10.jpg" alt="Kitten 3">
                   </div>
                </div>
                <div class="slide">
@@ -635,7 +642,7 @@
                         these can make your pet feel at ease in the family home</p>
                   </div>
                   <div class="image">
-                     <img src="kitten4.jpg" alt="Kitten 4">
+                     <img src="../img/cat-11.jpg" alt="Kitten 4">
                   </div>
                </div>
 
@@ -644,10 +651,142 @@
                <a class="next" onclick="moveSlide(1)">&#10095;</a>
             </div>
 
+            <!-- content-3 -->
+            <div class="content-3">
+               <h1>How to train your kitten to recognize its name</h1>
+               <p>Teaching your kitten to respond when you call their name is simpler than it sounds. These simple tips
+                  should prove useful.</p>
+
+               <div class="content">
+                  <div class="image-container">
+                     <img src="../img/cat-4.jpg" alt="house-sketch" class="house-sketch">
+                  </div>
+
+                  <div class="text-container">
+                     <ul>
+                        <li>Choose a short name without too many syllables. This will make it easier for your kitten to
+                           recognize</li>
+                        <li>Call your kitten by their name for feeding or play, and repeat their name during the
+                           activity. This positive reinforcement will help your cat to recognize the name</li>
+                        <li>Try not to repeat the name when punishing your kitten as this will give the name a negative
+                           connotation</li>
+                        <li>Say your kitten's name and then immediately give them a treat</li>
+                        <li>Or say their name and roll them a paper ball</li>
+                        <li>Kittens are often more responsive when they are hungry. So try these exercises before
+                           mealtime.</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
 
          </div>
       </div>
+
+      <!-- Grooming Section -->
+      <div id="grooming" class="tab-content">
+         <div class="grooming">
+            <!-- Content-1 -->
+            <div class="content-1">
+               <div class="left">
+                  <img src="../img/cat-12.jpg" alt="cat-1">
+               </div>
+               <div class="right">
+                  <h1>The basics of kitten grooming</h1>
+                  <p>Ensuring your kitten is used to being handled from a young age will make grooming easier as they
+                     grow. Each cat breed has unique grooming needs and understanding that is key to maintaining your
+                     kitten's healthy coat.</p>
+               </div>
+            </div>
+
+         </div>
+      </div>
+
+      <!-- join modal view -->
+      <div id="modal" class="modal">
+         <div class="modal-content">
+            <span class="close-btn" id="closeModalBtn">&times;</span>
+            <div class="community-join-section">
+               <h2>Join Our Pet-Loving Community!</h2>
+               <p>Connect with fellow pet owners, share stories, and get exclusive pet care tips!</p>
+               <ul>
+                  <li>🐾 <strong>Meet Pet Lovers Like You:</strong> Dog, cat, or exotic pet – everyone’s welcome!</li>
+                  <li>🐾 <strong>Share & Learn:</strong> Get advice and share your pet's stories.</li>
+                  <li>🐾 <strong>Exclusive Perks:</strong> Members-only content and discounts.</li>
+                  <li>🐾 <strong>Free to Join:</strong> It’s easy and fun, with no cost to you!</li>
+               </ul>
+               <button id="joinButton" onclick="window.open('https://discord.gg/GV2trb5Ubu','_blank')">Join Now</button>
+            </div>
+         </div>
+      </div>
    </div>
+
+   <!-- footer -->
+   <footer class="footer-distributed">
+
+      <div class="footer-left">
+
+         <h3>PawPrint<span>Paradise</span></h3>
+
+         <p class="footer-links">
+            <a href="#" class="link-1">Home</a>
+
+            <a href="/puppy-kitten/kitten.html">Kittens</a>
+
+            <a href="#">Puppies</a>
+
+            <a href="/breed-pages/dog-breeds.html">Dog Breed</a>
+
+            <a href="/breed-pages/cat-breeds.html">Cat Breed</a>
+
+            <a href="#">Blogs</a>
+         </p>
+
+         <p class="footer-company-name">PawPrintPradise © 2024</p>
+      </div>
+
+      <div class="footer-center">
+
+         <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+         </div>
+
+         <div>
+            <i class="fa fa-phone"></i>
+            <p>+1.555.555.5555</p>
+         </div>
+
+         <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:support@company.com">pawprintparadise@company.com</a></p>
+         </div>
+
+      </div>
+
+      <div class="footer-right">
+
+         <p class="footer-company-about">
+            <span>About the company</span>
+            PawPrintParadise is your trusted source for all things pets. We provide expert tips, breed information, and
+            pet
+            care advice to help you give your furry friends the best life. Whether you're a new or experienced pet
+            parent,
+            we’re here to support you every step of the way!
+         </p>
+
+         <div class="footer-icons">
+
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+
+         </div>
+
+      </div>
+
+   </footer>
+
 </body>
 
 </html>
