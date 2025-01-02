@@ -1125,6 +1125,7 @@ nav {
 .grooming {
   width: 100%;
   padding: 4vw 8vw;
+
   .content-1 {
     display: flex;
     justify-content: center;
@@ -1159,6 +1160,72 @@ nav {
       p {
         color: #625a71;
         line-height: 1.8vw;
+      }
+    }
+  }
+
+  /* content-2 */
+  .content-2 {
+    text-align: center;
+    max-width: 100vw;
+    padding: 2vw;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background: radial-gradient(
+      circle,
+      var(--ternary-color),
+      var(--primary-color)
+    );
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    .icon img {
+      width: 4vw;
+      height: auto;
+    }
+
+    .text {
+      font-size: 1rem;
+      color: #ffffff;
+      line-height: 1.6;
+      margin-top: 15px;
+    }
+  }
+
+  /* content-3 */
+  .content-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 2vw 0vw;
+
+    .left {
+      padding: 1vw;
+      width: 50%;
+
+      h1 {
+        background: -webkit-linear-gradient(
+          var(--primary-color),
+          var(--ternary-color)
+        );
+        /*-webkit-*/
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 3vw;
+      }
+      p {
+        color: #625a71;
+        line-height: 1.8vw;
+      }
+    }
+
+    .right {
+      width: 50%;
+      padding: 2vw;
+
+      img {
+        width: 100%;
+        height: auto;
       }
     }
   }
