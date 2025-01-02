@@ -1,0 +1,307 @@
+[
+  {
+    "dogs": [
+      {
+        "id": 1,
+        "name": "Chihuahua",
+        "photo": "../img/dog_breeds/bengal.jpeg",
+        "about": "Regarding temperament, Chihuahuas have feisty and independent personalities. They are also very loyal and affectionate towards their owners. This breed is typically good with children, but they may be too small and fragile for rough play. Chihuahuas come in two varieties: smooth-haired and longhaired. Smooth-haired Chihuahuas have short, sleek fur that requires minimal grooming. Long-haired Chihuahuas have longer, flowing fur. These small, fluffy dogs require additional grooming and should be brushed regularly to prevent matting. Chihuahuas come in various colors: black, brown, white, and tan. They can also have a combination of colors, such as black and tan or brown and white.Mexico",
+        "KeyFacts": {
+          "originCountry": "Mexico",
+          "avgLifeExpectancy": "14 to 16 years",
+          "height": "5-8 inches",
+          "weight": "1-6 pounds"
+        },
+        "grooming": "Most short-haired Chihuahuas can benefit from a good brushing once a week. It helps get rid of undercoat, skin cells and debris, and can help deposit natural oils across their body, conditioning their coat all over. Choose a brush that is designed for short, thin coats.",
+        "commonHealthIssues": [
+          "Dental disease",
+          "Luxating patella",
+          "Tracheal collapse",
+          "Hypoglycemia",
+          "Eye problems",
+          "Heart disease"
+        ],
+        "behavior": ["Affectionate", " loving", "loyal", "energetic"],
+        "training": [
+          "Start with the basic commands like “sit,” “stop,” and “heel.” Reward your pup with treats and plenty of praise when they perform a command correctly. Curb excessive barking. Like many small breeds, Chihuahuas bark because of distractions like squirrels, larger dogs, or people at the door."
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Pomeranian",
+        "photo": "../img/dog_breeds/american-bobtail.jpg",
+        "about": "The tiny Pomeranian, long a favorite of royals and commoners alike, has been called the ideal companion. The glorious coat, smiling, foxy face, and vivacious personality have helped make the Pom one of the world's most popular toy breeds. The Pomeranian combines a tiny body (no more than seven pounds) and a commanding big-dog demeanor. The abundant double coat, with its frill extending over the chest and shoulders, comes in almost two dozen colors, and various patterns and markings, but is most commonly seen in orange or red. Alert and intelligent, Pomeranians are easily trained and make fine watchdogs.",
+        "KeyFacts": {
+          "originCountry": "Germany, Poland",
+          "avgLifeExpectancy": "12 to 16 years",
+          "height": "8-14 inches",
+          "weight": "3-7 pounds"
+        },
+        "grooming": "Brushing your dog regularly is essential, as this will help keep their coat smooth and free from tangles that can lead to matting or hair loss. A Pomeranian is a dog breed known for its thick coat and small size and is typically groomed every 3-4 weeks. The grooming process includes shampooing the dog with a conditioning shampoo to maintain healthy skin. ",
+        "commonHealthIssues": [
+          "Luxating patellas",
+          "Tracheal collapse",
+          "Cataracts",
+          "Sss0Hypothyroidism"
+        ],
+        "behavior": "APomeranians are generally perky, friendly little dogs. They do not seem to realize they are small in stature and will occasionally tackle large dogs or at least verbally threaten them! These are active little dogs that do need daily exercise, even if it is just a walk around the block..",
+        "training": [
+          "The area of obedience most individuals like to focus on first is house training. Due to their size, some people wonder if eight week is too early to start potty training their Pom; however, this is a misconception. As soon as your pup is under your roof, you should begin training so bad habits do not form. Training a Pomeranian is like training any other dog; however, due to their small size, many people like to train them to use the bathroom inside on a pee pad or litter box as well as outside. Although this type of training is possible, be aware that it will most likely take more time because your dog will be slower to learn exactly where he should do his business."
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Pomeranian",
+        "photo": "../img/dog_breeds/american-bobtail.jpg",
+        "about": "The tiny Pomeranian, long a favorite of royals and commoners alike, has been called the ideal companion. The glorious coat, smiling, foxy face, and vivacious personality have helped make the Pom one of the world's most popular toy breeds. The Pomeranian combines a tiny body (no more than seven pounds) and a commanding big-dog demeanor. The abundant double coat, with its frill extending over the chest and shoulders, comes in almost two dozen colors, and various patterns and markings, but is most commonly seen in orange or red. Alert and intelligent, Pomeranians are easily trained and make fine watchdogs.",
+        "KeyFacts": {
+          "originCountry": "Germany, Poland",
+          "avgLifeExpectancy": "12 to 16 years",
+          "height": "8-14 inches",
+          "weight": "3-7 pounds"
+        },
+        "grooming": "Brushing your dog regularly is essential, as this will help keep their coat smooth and free from tangles that can lead to matting or hair loss. A Pomeranian is a dog breed known for its thick coat and small size and is typically groomed every 3-4 weeks. The grooming process includes shampooing the dog with a conditioning shampoo to maintain healthy skin. ",
+        "commonHealthIssues": [
+          "Luxating patellas",
+          "Tracheal collapse",
+          "Cataracts",
+          "Sss0Hypothyroidism"
+        ],
+        "behavior": "APomeranians are generally perky, friendly little dogs. They do not seem to realize they are small in stature and will occasionally tackle large dogs or at least verbally threaten them! These are active little dogs that do need daily exercise, even if it is just a walk around the block..",
+        "training": [
+          "The area of obedience most individuals like to focus on first is house training. Due to their size, some people wonder if eight week is too early to start potty training their Pom; however, this is a misconception. As soon as your pup is under your roof, you should begin training so bad habits do not form. Training a Pomeranian is like training any other dog; however, due to their small size, many people like to train them to use the bathroom inside on a pee pad or litter box as well as outside. Although this type of training is possible, be aware that it will most likely take more time because your dog will be slower to learn exactly where he should do his business."
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Maltese",
+        "photo": "../img/dog_breeds/american-bobtail.jpg",
+        "about": "Maltese are affectionate toy dogs weighing less than seven pounds, covered by a long, straight, silky coat. Beneath the all-white mantle is a compact body moving with a smooth and effortless gait. The overall picture depicts free           flowing elegance and balance. The irresistible Maltese face' with its big, dark eyes and black gumdrop nose' can conquer the most jaded sensibility. Despite their aristocratic bearing, Maltese are hardy and adaptable pets. They make alert watchdogs who are fearless in a charming toy-dog way, and they are game little athletes on the agility course. Maltese are low-shedding, long-lived, and happy to make new friends of all ages. Sometimes stubborn and willful, they respond well to rewards-based training.",
+        "KeyFacts": {
+          "originCountry": "Mediterranean Sea",
+          "avgLifeExpectancy": "12 to 15 years",
+          "height": "7-9 inches",
+          "weight": "7 pounds"
+        },
+        "grooming": "As with managing and reducing barking, positive reinforcement works wonders with Maltese dog. These are generally quite easy dogs to train, although some pups can be a little stubborn, so may need a few more treats to be convinced ",
+        "commonHealthIssues": [
+          "Maltese are susceptible to bacterial and viral infections— the same ones that all dogs can get—such as parvovirus, rabies, and distemper. Many of these infections are preventable through vaccination, which we'll administer to your dog based on the diseases we see in our area, his age, and other factors."
+        ],
+        "behavior": "They make alert watchdogs who are fearless in a charming toy-dog way, and they are game little athletes on the agility course. Maltese are low-shedding, long-lived, and happy to make new friends of all ages. Sometimes stubborn and willful, they respond well to rewards-based training.",
+        "training": [
+          "As with managing and reducing barking, positive reinforcement works wonders with Maltese dog. These are generally quite easy dogs to train, although some pups can be a little stubborn, so may need a few more treats to be convinced."
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Yorkshire Terrier",
+        "photo": "../img/dog_breeds/american-bobtail.jpg",
+        "about": "Beneath the dainty, glossy, floor-length coat of a Yorkshire Terrier beats the heart of a feisty, old-time terrier. Yorkies earned their living as ratters in mines and mills long before they became the beribboned lapdogs of Victorian ladies. Often named the most popular dog breed in various American cities, Yorkies pack lots of big-town attitude into a small but self-important package. They are favorites of urbanites the world over. Yorkies are long-lived and hypoallergenic (the coat is more like human hair than animal fur), and they make fine little watchdogs. This is a true 'personality breed,' providing years of laughs, love, and close companionship.",
+        "KeyFacts": {
+          "originCountry": "England",
+          "avgLifeExpectancy": "11 to 15 years",
+          "height": "7-8 inches",
+          "weight": "7 pounds"
+        },
+        "grooming": "As a pet, the coat of a Yorkshire Terrier dog needs to be brushed daily, using a brush and comb to ensure all tangles are removed. The topknot should be taken down, brushed out and redone. Leaving an elastic band in for days will destroy the coat. Hair under and around the tail should be checked for faeces. ",
+        "commonHealthIssues": [
+          "Luxating patellas",
+          "Bladder stones",
+          "Tracheal collapse",
+          "Dental problems"
+        ],
+        "behavior": "The Yorkshire terrier's small size belies its true personality, which is energetic, feisty — and domineering. Yorkies are affectionate, but they also want lots of attention the breed is a good choice for someone who wants to dote on a dog. Yorkshire terriers make excellent watchdogs.",
+        "training": [
+          "Consistency and patience are key when training a Yorkie, as they can have a stubborn streak. Start training from an early age and focus on basic obedience commands such as sit, stay, and come."
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Dwarf Pinscher",
+        "photo": "../img/dog_breeds/american-bobtail.jpg",
+        "about": "The leggy Miniature Pinscher is known to fans as the 'King of Toys.' This proud, fearless, fun-loving toy breed of lustrous coat and a compact, wedge-shaped physique is a true personality dog, known for a high-stepping 'hackney' gait. Min Pins are sturdy, compact dogs standing no more than 12.5 inches at the shoulder. The smooth, shiny coat comes in two shades of solid red, or chocolate-and-rust or black-and-rust. The dark, slightly oval eyes and high-set ears help bring out a self-possessed, 'big dog' personality. A distinguishing characteristic is the Min Pin's high-stepping 'hackney' gait, reminiscent of a hackney horse at the trot.",
+        "KeyFacts": {
+          "originCountry": "German",
+          "avgLifeExpectancy": "10 to 14 years",
+          "height": "10-12 inches",
+          "weight": "8-10 pounds"
+        },
+        "grooming": "The Miniature Pinscher does require regular bathing and grooming.  This lively and spirited little dog can be bathed as frequently as every week up to no more than every six weeks depending on his lifestyle.  With this smooth coated breed, regular bathing is essential to maintain healthy skin and coat.  Selecting the correct products to match your pet’s skin and coat is essential to achieve optimal results.",
+        "commonHealthIssues": [
+          "Patellar luxation",
+          "Progressive retinal atrophy",
+          "Urolithiasis",
+          "Glaucoma"
+        ],
+        "behavior": "The Miniature Pinscher does require regular bathing and grooming.  This lively and spirited little dog can be bathed as frequently as every week up to no more than every six weeks depending on his lifestyle.  With this smooth coated breed, regular bathing is essential to maintain healthy skin and coat.  Selecting the correct products to match your pet’s skin and coat is essential to achieve optimal results.",
+        "training": [
+          "Once the young dog reaches 6 months of age, start with formal obedience training such as heeling and extended down-stays. Miniature Pinschers are highly trainable and learn quickly and easily. Because they're trainable and have relatively long legs for their body size, they make ideal competitors in obedience competitions, field trials, retrieving, mini-agility, and dog-jumping"
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Russian Toy",
+        "photo": "../img/dog_breeds/american-bobtail.jpg",
+        "about": "The Russian Toy, also known as the Russkiy Toy, is one of the smallest dog breeds. Hailing from Russia, this breed is relatively new to dog fanciers outside its origin country. The Russian Toy was initially bred for dual purposes as an anti-rat dog and a watchdog. The watchful nature remains prominent in the breed, making them quite vocal when guarding their surroundings. ",
+        "KeyFacts": {
+          "originCountry": "England",
+          "avgLifeExpectancy": "11 to 15 years",
+          "height": "7-8 inches",
+          "weight": "3 to 9 pounds"
+        },
+        "grooming": "The longhaired variety requires more grooming than the smooth-coated variety for obvious reasons. The long coat has body hair from 1-3 inches long. Their ears are covered with thick, long hair forming a fringe, and there are distinct feathers on the rear side of his limbs. The longhaired variety should be brushed two to three times per week and fringes should be kept free of debris. Monthly baths with high-quality shampoo and conditioner are usually enough to keep the coat healthy.",
+        "commonHealthIssues": [
+          "Retained baby teeth",
+          "Patellar luxation",
+          "Allergies",
+          "Bone fractures"
+        ],
+        "behavior": "The Russian Toy is a small, elegant, lively dog with long legs, fine bones and lean muscles. They are active and cheerful, possessing keen intelligence and a desire to please. This breed loves to snuggle and be close to their human companions, although sometimes slightly aloof to strangers. They are neither cowardly nor aggressive.",
+        "training": [
+          "The Russian Toy is considered to have moderately high energy. They need regular exercise, but because of their small size, a regular yard or long run is usually sufficient. They love going for walks with their humans and love to run and play until they collapse in your lap for a long snuggle. Because small dogs have more fragile necks and tracheas than large dogs, it is recommended that a leash be attached to a harness instead of a collar when walking your Russian Toy. "
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Papillon",
+        "photo": "../img/dog_breeds/american-bobtail.jpg",
+        "about": "The quick, curious Papillon is a toy dog of singular beauty and upbeat athleticism. Despite his refined appearance, the Pap is truly a 'doggy dog' blessed with a hardy constitution. Papillon fanciers describe their breed as happy, alert, and friendly. A tiny dog, measuring 8 to 11 inches at the shoulder, you can still spot a Papillon a block away thanks to the large, wing-shaped ears that give the breed its name ('papillon' is French for 'butterfly'). Some Paps have erect ears; in others, known as the Phalene type, the ears are down. Paps are dainty and elegant, with a plumed tail, and a long, silky coat of several color combinations, the base color being white.",
+        "KeyFacts": {
+          "originCountry": "France",
+          "avgLifeExpectancy": "14 to 16 years",
+          "height": "8-12 inches",
+          "weight": "6-11 pounds"
+        },
+        "grooming": "Brushing out their fur with either a comb or a soft slicker brush every other week or so will keep them looking fit. Papillons walk lower to the ground, and this means they likely collect dirt and other debris in their fur accidentally. Brushing them out periodically will help get rid of debris and avoid matting",
+        "commonHealthIssues": [
+          "Dental disease",
+          "Eye problems",
+          "Heart disease",
+          "Allergies",
+          "Infection"
+        ],
+        "behavior": "The Papillon temperament is known for sociability. These dogs need to be around their people or other pets in the house. They can engage in destructive behaviors if left alone or develop separation anxiety. Because of their small size, they can be prone to injury. So, close off sections of the house and remove objects at dog level that could cause injury.",
+        "training": [
+          "Papillons are easy to train because of their intelligence and obedience. These dogs should be taught to obey commands like, 'sit', 'go', 'heel', 'stay', 'no' etc. They are often trained as watch dogs and therapy dogs. Paillons should be crate-trained. They should be trained to stay in their crates until they are commanded otherwise. They should be taken to a selected spot every day after each regular meal. However, accidents happen and pups are never to be ill-treated."
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Biewer Terrier",
+        "photo": "../img/dog_breeds/american-bobtail.jpg",
+        "about": "The Biewer Terrier is a very dedicated, loyal family member and friendly with strangers. A large percentage of the Biewer Terriers are happy-go-lucky dogs, smiling when asked if they are happy. In spite of its small stature, the Biewer is a very hearty, athletic dog and an excellent hunter of vermin. They are lighthearted, have a childlike attitude and like to carry toys in their mouths.",
+        "KeyFacts": {
+          "originCountry": "France",
+          "avgLifeExpectancy": "12 to 15 years",
+          "height": "7-12 inches",
+          "weight": "4-8 pounds"
+        },
+        "grooming": "The Biewer Terrier does require regular brushing and bathing. Their coat is a single layer with no undercoat giving it the luxurious silk texture that Biewers are well known for.  A proper coat has a deep shine and reflects light in the sunshine. This single layer coat closely resembles a human hair strand.  Cleanliness is very important as dirty hair does not grow.  In order to keep the coat and skin in good health, Biewers should be bathed and brushed out weekly.  Even if the Biewer Terrier does not have the correct silk texture, choosing the right products and using them correctly can give the illusion of the silky coat texture.",
+        "commonHealthIssues": [
+          "Dental disease",
+          "Obesity",
+          "Parasitic disease",
+          "Eye problems",
+          "Cancer"
+        ],
+        "behavior": "The Biewer Terrier is an elegant, tri colored toy terrier that is intelligent, loyal, and very devoted to their human family.  They have a fun-loving childlike attitude that makes them a great addition for all ages.",
+        "training": [
+          "Biewers love to solve problems.  Play games with your pup that make it use its brain.  They enjoy learning new things.  Enriching their environment also helps; add toys, hide them, throw/chase balls, let them explore.  Learning is fun!"
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Border terrirer",
+        "photo": "../img/dog_breeds/american-bobtail.jpg",
+        "about": "Admirers of the upbeat and agile Border Terrier cherish their breed's reputation as a tough, no-frills working terrier. These plucky, happy, and affectionate dogs are popular pets in town and country. The wiry coat is an easy keeper. Border Terriers, standing from 11 to 16 inches at the shoulder, are easy to recognize among other small terriers by their unique head shape'the breed has an 'otter head,' as fanciers say. Another distinguishing trait is that they are longer in leg than other small terriers.",
+        "KeyFacts": {
+          "originCountry": "United kingdom",
+          "avgLifeExpectancy": "12 to 15 years",
+          "height": "12-15 inches",
+          "weight": "11-15 pounds"
+        },
+        "grooming": "Borders are not a high maintenance breed but they do need more grooming than some books on choosing a dog indicate. The bare necessities are clipping nails, checking and cleaning teeth, and keeping the anal and genital areas free of hair to be sanitary. Generally, Borders do not require frequent bathing. Toweling off when wet and dirty followed by slicker brushing when dry usually suffices. Bathing also tends to soften the harsh coat that is naturally dirt repellant. If a Border gets dusty, a rubdown with a damp towel works well. Borders do not normally have strong odor. If you are concerned about doggy odor, then perhaps a dog is not the right pet for you. Most Borders elect a sun bath on a fairly regular basis which seems to help keep them sweet smelling.",
+        "commonHealthIssues": [
+          "Skin allergies",
+          "Epilepsy",
+          "Cataracts",
+          "Periodontal disease"
+        ],
+        "behavior": "The Border Terrier breed is an affectionate, fun-loving one. They are brave, adaptable, and good with people, especially with children. Generally easy-going, they have an independent nature and like to make their own decisions.",
+        "training": [
+          "In the right hands, Border Terriers can be easy to train as they are such quick learners and eager to please their owners. It’s important to use positive, reward-based training as Border Terriers are sensitive and don’t respond well to other training methods. Some Border Terriers are known to be independent when it comes to their training so a firm but fair attitude is a must. If you’re a first-time owner, you may want to consider taking your dog to training classes."
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Boston Terrier",
+        "photo": "../img/dog_breeds/american-bobtail.jpg",
+        "about": "The Boston Terrier is a lively little companion recognized by his tight tuxedo jacket, sporty but compact body, and the friendly glow in his big, round eyes. His impeccable manners have earned him the nickname 'The American Gentleman.' Boston Terriers are compact, short-tailed, well-balanced little dogs weighing no more than 25 pounds. The stylish 'tuxedo' coat can be white and either black, brindle, or seal (dark brown). The head is square, the muzzle is short, and the large, round eyes can shine with kindness, curiosity, or mischief. ",
+        "KeyFacts": {
+          "originCountry": "United Stated",
+          "avgLifeExpectancy": "13 to 15 years",
+          "height": "9-15 inches",
+          "weight": "6-25 pounds"
+        },
+        "grooming": "Bostons also appeal to more laid-back pet owners thanks to their relatively low-maintenance grooming needs. But while they won’t require the same kind of care as a more grooming-intensive breed (like a poodle, for instance), if you want your pet to look and feel their best, you do need to understanding their bathing, brushing, and overall grooming needed.",
+        "commonHealthIssues": [
+          "Deafness",
+          "Heart Disease",
+          "Hyperadrenocorticism",
+          "Hair loss",
+          "Cancer"
+        ],
+        "behavior": "They are usually a gentle breed with a friendly and happy personality. They are very intelligent and easy to train. Boston Terriers do tend to be protective of their owners, which may result in aggression toward other animals or strangers. Not a big barker, they are ideal for apartment living.",
+        "training": [
+          "Boston Terriers are intelligent dogs and generally eager to please their owners, which makes them relatively easy to train. They respond well to positive reinforcement techniques, such as rewards, praise, and treats. Consistency, patience, and gentle guidance are key to their training success"
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Cavalier King",
+        "photo": "../img/dog_breeds/american-bobtail.jpg",
+        "about": "The Cavalier King Charles Spaniel wears his connection to British history in his breed's name. Cavaliers are the best of two worlds, combining the gentle attentiveness of a toy breed with the verve and athleticism of a sporting spaniel. The Cavalier's all-around beauty, regal grace, and even temper mark him as one of dogdom's noblemen. A toy spaniel no more than 13 inches high, the Cavalier draws you in with his face: The sweet, gentle, melting expression emanating from large, round eyes is a breed hallmark. Another is the silky, richly colored coat that can be one of four distinct varieties.",
+        "KeyFacts": {
+          "originCountry": "United kingdom",
+          "avgLifeExpectancy": "9-14 Years",
+          "height": "12-13 inches",
+          "weight": "13-18 pounds"
+        },
+        "grooming": "A daily 10-minute brush-out is a must,” Huggins says. “Begin by lightly misting the silky coat with water and brush around the ears and skirts before brushing all the fringe. Brushing pulls out the dead hair, and the coat should lie flat and feel soft.” Use a boar bristle brush or a pin brush. A pin brush is a wooden brush with widely spaced wire pins and a ball at one end to avoid damaging the coat.",
+        "commonHealthIssues": [
+          "Eye problems",
+          "Obesity",
+          "Dental problems",
+          "Allergies"
+        ],
+        "behavior": "The breed is highly affectionate, playful, extremely patient and eager to please. As such, dogs of the breed are good with children and other dogs. Cavaliers are not shy about socialising with much larger dogs. They will adapt quickly to almost any environment, family, and location and suit city and country life.",
+        "training": [
+          "Cavalier King Charles Spaniels are intelligent, good-natured dogs that take well to training and respond to positive reinforcement techniques. Desensitization and good socialization are the foundational skills to prepare your puppy for learning the core behaviors of a well-behaved and well-trained dog. Before training, you should know the behaviors and skills you want to teach. Make a step-by-step plan to achieve each goal and reinforce each milestone. Your young Cavalier learns best when their training is fun, brief, and repeated often."
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Fox Terrier (Smooth)",
+        "photo": "../img/dog_breeds/american-bobtail.jpg",
+        "about": "Smooths are quite similar to their close relatives, Wire Fox Terriers. Like their crispy-coated cousins, Smooths stand no more than 15.5 inches at the shoulder. The distinguishing physical trait, besides coat type, is the head: A Smooth's head is more V-shaped than a Wire's. The dense, flat coat is predominantly white, with black, tan, or black-and-tan markings. These cleverly made hunters are strong and sturdy, but never coarse and clunky. Short-backed and symmetrical, they move with the unwavering grace of a pendulum clock.",
+        "KeyFacts": {
+          "originCountry": "United kingdom",
+          "avgLifeExpectancy": "15 Years",
+          "height": "14–15.5 inches",
+          "weight": "15–19 pounds"
+        },
+        "grooming": "The Fox Terrier has a harsh wire coat, which is renewed and maintained by hand stripping. It is advices to brush and card the coat weekly to avoid tangles, you can use a boar bristle brush for the shorter areas to remove dust particles and stimulate the coat.",
+        "commonHealthIssues": [
+          "Dental disease",
+          "Infections",
+          "Obesity",
+          "Eye problems"
+        ],
+        "behavior": "The smooth fox terrier is friendly, energetic and outgoing. These dogs are wonderful companions for children and never tire of all sorts of games. The coat of the smooth fox terrier is easy to keep looking neat. A daily brushing will keep it clean and prevent excessive shedding in the house.",
+        "training": [
+          "Wire Fox Terriers are intelligent dogs that enjoy mental stimulation and learning new things. However, they can be independent and stubborn, which can present training challenges. Patience, consistency, and positive reinforcement techniques are key when training Wire Fox Terriers."
+        ]
+      }
+    ]
+  }
+]
