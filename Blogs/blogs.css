@@ -1,0 +1,224 @@
+:root {
+  --primary-color: hsl(197, 62.8%, 42.2%);
+  --primary-color-light: hsl(187, 100%, 36%);
+  --secondary-color: hsl(176, 100%, 38%);
+  --ternary-color: hsl(153, 62%, 59%);
+  --ternary-color-light: hsl(100, 73%, 72%);
+  --highlight-color: hsl(60, 92%, 71%);
+  --white: hsl(0, 0%, 100%);
+  --balck: hsl(0, 0%, 0%);
+  --color: linear-gradient(hsl(187, 100%, 36%), hsl(153, 62%, 59%));
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* hero section styling */
+.hero {
+  /* height: 100vh; */
+  width: 100%;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+     url(img/bcakground-2.jpg); */
+  /* background-image: linear-gradient(
+    to right top,
+    var(--primary-color),
+    var(--ternary-color)
+  ); */
+  background-size: cover;
+  background-position: center;
+}
+
+/* navbar */
+nav {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2vw 8vw;
+  background-color: var(--white);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  z-index: 10;
+
+  /* logo */
+  .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2px;
+    height: auto;
+    width: 30vw;
+    padding: 0;
+
+    img {
+      height: 10%;
+      width: 10%;
+    }
+
+    h3 {
+      background: -webkit-linear-gradient(
+        var(--primary-color),
+        var(--ternary-color)
+      );
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 2.5vw;
+    }
+  }
+
+  /* navbar options */
+  ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style-type: none;
+      position: relative; /* Required for dropdown positioning */
+      padding: 1vw 2vw;
+      color: var(--primary-color);
+      font-weight: bold;
+
+      a {
+        color: var(--primary-color);
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      /* Dropdown styles */
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: var(--white);
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+        z-index: 1;
+        /* margin-top: 10px; */
+
+        a {
+          display: block;
+          padding: 1vw 2vw;
+          color: var(--primary-color);
+          text-decoration: none;
+          font-weight: normal;
+          white-space: nowrap;
+
+          &:hover {
+            background-color: var(--ternary-color);
+            color: white;
+          }
+        }
+      }
+
+      &:hover .dropdown-content {
+        display: block;
+      }
+    }
+  }
+
+  /* CTA Button Styling */
+  button {
+    border: 2px solid;
+    background: -webkit-linear-gradient(
+      var(--primary-color),
+      var(--ternary-color)
+    );
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2vw;
+    transition: 0.4s ease-in-out;
+
+    &:hover {
+      background: -webkit-linear-gradient(
+        var(--primary-color),
+        var(--ternary-color)
+      );
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      cursor: pointer;
+      border: 2px solid var(--secondary-color);
+    }
+  }
+}
+
+.masonry-container {
+  column-count: 3; /* Number of columns */
+  column-gap: 20px; /* Gap between columns */
+  max-width: 1200px;
+  padding: 20px;
+  background-image: url(../img/Background1.svg);
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  display: inline-block; /* Ensure cards behave like inline elements */
+  width: 100%; /* Card width adapts to column */
+  text-align: left;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-content {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+  opacity: 0.6; /* Low opacity by default */
+  transition: opacity 0.3s ease;
+}
+
+.card:hover .card-content {
+  opacity: 1; /* Full opacity on hover */
+}
+
+.card-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.card:hover .card-button {
+  transform: scale(1.1); /* Zoom out on hover */
+  background-color: #0056b3; /* Change color slightly on hover */
+}
+
+@media (max-width: 768px) {
+  .masonry-container {
+    column-count: 2; /* Adjust to 2 columns on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .masonry-container {
+    column-count: 1; /* Adjust to 1 column on mobile screens */
+  }
+}
