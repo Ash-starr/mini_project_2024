@@ -29,7 +29,9 @@ function renderCards(data) {
           <div class="card">
             <img src="${breed.photo}" alt="${breed.name}" class="card-image">
             <div class="card-label">
-              <p>${breed.name}</p>
+              <a href="../specificBreedInfo/dog-info.html?id=${breed.id}">
+                  <p>${breed.name}</p>
+              </a>
             </div>
           </div>
         `;

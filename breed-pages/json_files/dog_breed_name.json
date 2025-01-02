@@ -5,43 +5,53 @@
       "breeds": [
         {
           "name": "Chihuahua",
-          "photo": "../img/dogs_breeds/chihuahua.png"
+          "photo": "../img/dogs_breeds/chihuahua.png",
+          "id": 1
         },
         {
           "name": "Maltese",
-          "photo": "../img/dogs_breeds/maltese.png"
+          "photo": "../img/dogs_breeds/maltese.png",
+          "id": 2
         },
         {
           "name": "Yorkshire Terrier",
-          "photo": "../img/dogs_breeds/yorkshire-terrier.png"
+          "photo": "../img/dogs_breeds/yorkshire-terrier.png",
+          "id": 3
         },
         {
           "name": "Dwarf Pinscher",
-          "photo": "../img/dogs_breeds/dwarf-pinscher.png"
+          "photo": "../img/dogs_breeds/dwarf-pinscher.png",
+          "id": 4
         },
         {
           "name": "Pomeranian",
-          "photo": "../img/dogs_breeds/pomeranian.png"
+          "photo": "../img/dogs_breeds/pomeranian.png",
+          "id": 5
         },
         {
           "name": "Toy Poodle",
-          "photo": "../img/dogs_breeds/toy-poodle.png"
+          "photo": "../img/dogs_breeds/toy-poodle.png",
+          "id": 6
         },
         {
           "name": "Toy Fox Terrier",
-          "photo": "../img/dogs_breeds/toy-fox-terrier.png"
+          "photo": "../img/dogs_breeds/toy-fox-terrier.png",
+          "id": 7
         },
         {
           "name": "Biewer Terrier",
-          "photo": "../img/dogs_breeds/biewer-terrier.png"
+          "photo": "../img/dogs_breeds/biewer-terrier.png",
+          "id": 8
         },
         {
           "name": "Papillon",
-          "photo": "../img/dogs_breeds/papillon.png"
+          "photo": "../img/dogs_breeds/papillon.png",
+          "id": 9
         },
         {
           "name": "Russian Toy",
-          "photo": "../img/dogs_breeds/russian-toy.png"
+          "photo": "../img/dogs_breeds/russian-toy.png",
+          "id": 10
         }
       ]
     },
@@ -50,43 +60,53 @@
       "breeds": [
         {
           "name": "Border Terrier",
-          "photo": "../img/dogs_breeds/border-terrier.png"
+          "photo": "../img/dogs_breeds/border-terrier.png",
+          "id": 11
         },
         {
           "name": "Boston Terrier",
-          "photo": "../img/dogs_breeds/boston-terrier.png"
+          "photo": "../img/dogs_breeds/boston-terrier.png",
+          "id": 12
         },
         {
           "name": "Cavalier King",
-          "photo": "../img/dogs_breeds/cavalier-king.png"
+          "photo": "../img/dogs_breeds/cavalier-king.png",
+          "id": 13
         },
         {
           "name": "Fox Terrier (Smooth)",
-          "photo": "../img/dogs_breeds/fox-terrier(smooth).png"
+          "photo": "../img/dogs_breeds/fox-terrier(smooth).png",
+          "id": 14
         },
         {
           "name": "Jack Russell Terrier",
-          "photo": "../img/dogs_breeds/jack-russell-terrier.png"
+          "photo": "../img/dogs_breeds/jack-russell-terrier.png",
+          "id": 15
         },
         {
           "name": "Lhasa Apso",
-          "photo": "../img/dogs_breeds/lhasa-apso.png"
+          "photo": "../img/dogs_breeds/lhasa-apso.png",
+          "id": 16
         },
         {
           "name": "Norfolk Terrier",
-          "photo": "../img/dogs_breeds/norfolk-terrier.png"
+          "photo": "../img/dogs_breeds/norfolk-terrier.png",
+          "id": 17
         },
         {
           "name": "Poodle Miniature",
-          "photo": "../img/dogs_breeds/poodle-miniature.png"
+          "photo": "../img/dogs_breeds/poodle-miniature.png",
+          "id": 18
         },
         {
           "name": "Pug",
-          "photo": "../img/dogs_breeds/pug.png"
+          "photo": "../img/dogs_breeds/pug.png",
+          "id": 19
         },
         {
           "name": "Schnauzer Miniature",
-          "photo": "../img/dogs_breeds/schnauzer-miniature.png"
+          "photo": "../img/dogs_breeds/schnauzer-miniature.png",
+          "id": 20
         }
       ]
     },
@@ -95,39 +115,48 @@
       "breeds": [
         {
           "name": "Beagle",
-          "photo": "../img/dogs_breeds/beagle.png"
+          "photo": "../img/dogs_breeds/beagle.png",
+          "id": 21
         },
         {
           "name": "Border Collie",
-          "photo": "../img/dogs_breeds/border-collie.png"
+          "photo": "../img/dogs_breeds/border-collie.png",
+          "id": 22
         },
         {
           "name": "Bulldog - British",
-          "photo": "../img/dogs_breeds/bulldog-british.png"
+          "photo": "../img/dogs_breeds/bulldog-british.png",
+          "id": 23
         },
         {
           "name": "Bulldog - French",
-          "photo": "../img/dogs_breeds/bulldog-french.png"
+          "photo": "../img/dogs_breeds/bulldog-french.png",
+          "id": 24
         },
         {
           "name": "Cocker Spaniel",
-          "photo": "../img/dogs_breeds/cocker-spaniel.png"
+          "photo": "../img/dogs_breeds/cocker-spaniel.png",
+          "id": 25
         },
         {
           "name": "English Springer Spaniel",
-          "photo": "../img/dogs_breeds/english-springer-spaniel.png"
+          "photo": "../img/dogs_breeds/english-springer-spaniel.png",
+          "id": 26
         },
         {
           "name": "Schnauzer Standard",
-          "photo": "../img/dogs_breeds/schnauzer-standard.png"
+          "photo": "../img/dogs_breeds/schnauzer-standard.png",
+          "id": 27
         },
         {
           "name": "Staffordshire Bull Terrier",
-          "photo": "../img/dogs_breeds/staffordshire-bull-terrier.png"
+          "photo": "../img/dogs_breeds/staffordshire-bull-terrier.png",
+          "id": 28
         },
         {
           "name": "Whippet",
-          "photo": "../img/dogs_breeds/whippet.png"
+          "photo": "../img/dogs_breeds/whippet.png",
+          "id": 29
         }
       ]
     },
@@ -136,43 +165,53 @@
       "breeds": [
         {
           "name": "American Staffordshire Terrier",
-          "photo": "../img/dogs_breeds/american-staffordshire-terrier.png"
+          "photo": "../img/dogs_breeds/american-staffordshire-terrier.png",
+          "id": 30
         },
         {
           "name": "Australian Shepherd",
-          "photo": "../img/dogs_breeds/australian-shepherd.png"
+          "photo": "../img/dogs_breeds/australian-shepherd.png",
+          "id": 31
         },
         {
           "name": "Australian Cattle Dog",
-          "photo": "../img/dogs_breeds/australian-cattle-dog.png"
+          "photo": "../img/dogs_breeds/australian-cattle-dog.png",
+          "id": 32
         },
         {
           "name": "Basset Hound",
-          "photo": "../img/dogs_breeds/basset-hound.png"
+          "photo": "../img/dogs_breeds/basset-hound.png",
+          "id": 33
         },
         {
           "name": "Boxer",
-          "photo": "../img/dogs_breeds/boxer.png"
+          "photo": "../img/dogs_breeds/boxer.png",
+          "id": 34
         },
         {
           "name": "Bull Terrier",
-          "photo": "../img/dogs_breeds/bull-terrier.png"
+          "photo": "../img/dogs_breeds/bull-terrier.png",
+          "id": 35
         },
         {
           "name": "Doberman Pinscher",
-          "photo": "../img/dogs_breeds/doberman-pinscher.png"
+          "photo": "../img/dogs_breeds/doberman-pinscher.png",
+          "id": 36
         },
         {
           "name": "German Shepherd",
-          "photo": "../img/dogs_breeds/german-shepherd.png"
+          "photo": "../img/dogs_breeds/german-shepherd.png",
+          "id": 37
         },
         {
           "name": "Golden Retriever",
-          "photo": "../img/dogs_breeds/golden-retriever.png"
+          "photo": "../img/dogs_breeds/golden-retriever.png",
+          "id": 38
         },
         {
           "name": "Labrador Retriever",
-          "photo": "../img/dogs_breeds/labrador-retriever.png"
+          "photo": "../img/dogs_breeds/labrador-retriever.png",
+          "id": 39
         }
       ]
     },
@@ -181,43 +220,53 @@
       "breeds": [
         {
           "name": "Bullmastiff",
-          "photo": "../img/dogs_breeds/bull-mastiff.png"
+          "photo": "../img/dogs_breeds/bull-mastiff.png",
+          "id": 40
         },
         {
           "name": "Great Dane",
-          "photo": "../img/dogs_breeds/great-dane.png"
+          "photo": "../img/dogs_breeds/great-dane.png",
+          "id": 41
         },
         {
           "name": "Newfoundland",
-          "photo": "../img/dogs_breeds/new-found-land.png"
+          "photo": "../img/dogs_breeds/new-found-land.png",
+          "id": 42
         },
         {
           "name": "Rottweiler",
-          "photo": "../img/dogs_breeds/rottweiler.png"
+          "photo": "../img/dogs_breeds/rottweiler.png",
+          "id": 43
         },
         {
           "name": "Bernese Mountain Dog",
-          "photo": "../img/dogs_breeds/bernese-mountain-dog.png"
+          "photo": "../img/dogs_breeds/bernese-mountain-dog.png",
+          "id": 44
         },
         {
           "name": "Chinook",
-          "photo": "../img/dogs_breeds/chinook.png"
+          "photo": "../img/dogs_breeds/chinook.png",
+          "id": 45
         },
         {
           "name": "Hovawart",
-          "photo": "../img/dogs_breeds/hovawart.png"
+          "photo": "../img/dogs_breeds/hovawart.png",
+          "id": 46
         },
         {
           "name": "Pitbull Terrier",
-          "photo": "../img/dogs_breeds/pitbull-terrier.png"
+          "photo": "../img/dogs_breeds/pitbull-terrier.png",
+          "id": 47
         },
         {
           "name": "Samoyed",
-          "photo": "../img/dogs_breeds/samoyed.png"
+          "photo": "../img/dogs_breeds/samoyed.png",
+          "id": 48
         },
         {
           "name": "Airedale Terrier",
-          "photo": "../img/dogs_breeds/airedale-terrier.png"
+          "photo": "../img/dogs_breeds/airedale-terrier.png",
+          "id": 49
         }
       ]
     }
