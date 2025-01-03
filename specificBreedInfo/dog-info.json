@@ -4,7 +4,7 @@
       {
         "id": 1,
         "name": "Chihuahua",
-        "photo": "../img/dog_breeds/bengal.jpeg",
+        "photo": "../img/dog_breeds/Chihuahua.jpg",
         "about": "Regarding temperament, Chihuahuas have feisty and independent personalities. They are also very loyal and affectionate towards their owners. This breed is typically good with children, but they may be too small and fragile for rough play. Chihuahuas come in two varieties: smooth-haired and longhaired. Smooth-haired Chihuahuas have short, sleek fur that requires minimal grooming. Long-haired Chihuahuas have longer, flowing fur. These small, fluffy dogs require additional grooming and should be brushed regularly to prevent matting. Chihuahuas come in various colors: black, brown, white, and tan. They can also have a combination of colors, such as black and tan or brown and white.Mexico",
         "KeyFacts": {
           "originCountry": "Mexico",
@@ -29,30 +29,7 @@
       {
         "id": 5,
         "name": "Pomeranian",
-        "photo": "../img/dog_breeds/american-bobtail.jpg",
-        "about": "The tiny Pomeranian, long a favorite of royals and commoners alike, has been called the ideal companion. The glorious coat, smiling, foxy face, and vivacious personality have helped make the Pom one of the world's most popular toy breeds. The Pomeranian combines a tiny body (no more than seven pounds) and a commanding big-dog demeanor. The abundant double coat, with its frill extending over the chest and shoulders, comes in almost two dozen colors, and various patterns and markings, but is most commonly seen in orange or red. Alert and intelligent, Pomeranians are easily trained and make fine watchdogs.",
-        "KeyFacts": {
-          "originCountry": "Germany, Poland",
-          "avgLifeExpectancy": "12 to 16 years",
-          "height": "8-14 inches",
-          "weight": "3-7 pounds"
-        },
-        "grooming": "Brushing your dog regularly is essential, as this will help keep their coat smooth and free from tangles that can lead to matting or hair loss. A Pomeranian is a dog breed known for its thick coat and small size and is typically groomed every 3-4 weeks. The grooming process includes shampooing the dog with a conditioning shampoo to maintain healthy skin. ",
-        "commonHealthIssues": [
-          "Luxating patellas",
-          "Tracheal collapse",
-          "Cataracts",
-          "Sss0Hypothyroidism"
-        ],
-        "behavior": "APomeranians are generally perky, friendly little dogs. They do not seem to realize they are small in stature and will occasionally tackle large dogs or at least verbally threaten them! These are active little dogs that do need daily exercise, even if it is just a walk around the block..",
-        "training": [
-          "The area of obedience most individuals like to focus on first is house training. Due to their size, some people wonder if eight week is too early to start potty training their Pom; however, this is a misconception. As soon as your pup is under your roof, you should begin training so bad habits do not form. Training a Pomeranian is like training any other dog; however, due to their small size, many people like to train them to use the bathroom inside on a pee pad or litter box as well as outside. Although this type of training is possible, be aware that it will most likely take more time because your dog will be slower to learn exactly where he should do his business."
-        ]
-      },
-      {
-        "id": 5,
-        "name": "Pomeranian",
-        "photo": "../img/dog_breeds/american-bobtail.jpg",
+        "photo": "../img/dog_breeds/pomeranian.jpg",
         "about": "The tiny Pomeranian, long a favorite of royals and commoners alike, has been called the ideal companion. The glorious coat, smiling, foxy face, and vivacious personality have helped make the Pom one of the world's most popular toy breeds. The Pomeranian combines a tiny body (no more than seven pounds) and a commanding big-dog demeanor. The abundant double coat, with its frill extending over the chest and shoulders, comes in almost two dozen colors, and various patterns and markings, but is most commonly seen in orange or red. Alert and intelligent, Pomeranians are easily trained and make fine watchdogs.",
         "KeyFacts": {
           "originCountry": "Germany, Poland",
@@ -75,7 +52,7 @@
       {
         "id": 2,
         "name": "Maltese",
-        "photo": "../img/dog_breeds/american-bobtail.jpg",
+        "photo": "../img/dog_breeds/Maltese.jpg",
         "about": "Maltese are affectionate toy dogs weighing less than seven pounds, covered by a long, straight, silky coat. Beneath the all-white mantle is a compact body moving with a smooth and effortless gait. The overall picture depicts free           flowing elegance and balance. The irresistible Maltese face' with its big, dark eyes and black gumdrop nose' can conquer the most jaded sensibility. Despite their aristocratic bearing, Maltese are hardy and adaptable pets. They make alert watchdogs who are fearless in a charming toy-dog way, and they are game little athletes on the agility course. Maltese are low-shedding, long-lived, and happy to make new friends of all ages. Sometimes stubborn and willful, they respond well to rewards-based training.",
         "KeyFacts": {
           "originCountry": "Mediterranean Sea",
@@ -95,7 +72,7 @@
       {
         "id": 3,
         "name": "Yorkshire Terrier",
-        "photo": "../img/dog_breeds/american-bobtail.jpg",
+        "photo": "../img/dog_breeds/yorkshire-terrier.jpg",
         "about": "Beneath the dainty, glossy, floor-length coat of a Yorkshire Terrier beats the heart of a feisty, old-time terrier. Yorkies earned their living as ratters in mines and mills long before they became the beribboned lapdogs of Victorian ladies. Often named the most popular dog breed in various American cities, Yorkies pack lots of big-town attitude into a small but self-important package. They are favorites of urbanites the world over. Yorkies are long-lived and hypoallergenic (the coat is more like human hair than animal fur), and they make fine little watchdogs. This is a true 'personality breed,' providing years of laughs, love, and close companionship.",
         "KeyFacts": {
           "originCountry": "England",
@@ -118,7 +95,7 @@
       {
         "id": 4,
         "name": "Dwarf Pinscher",
-        "photo": "../img/dog_breeds/american-bobtail.jpg",
+        "photo": "../img/dog_breeds/dwarf-pinscher.jpg",
         "about": "The leggy Miniature Pinscher is known to fans as the 'King of Toys.' This proud, fearless, fun-loving toy breed of lustrous coat and a compact, wedge-shaped physique is a true personality dog, known for a high-stepping 'hackney' gait. Min Pins are sturdy, compact dogs standing no more than 12.5 inches at the shoulder. The smooth, shiny coat comes in two shades of solid red, or chocolate-and-rust or black-and-rust. The dark, slightly oval eyes and high-set ears help bring out a self-possessed, 'big dog' personality. A distinguishing characteristic is the Min Pin's high-stepping 'hackney' gait, reminiscent of a hackney horse at the trot.",
         "KeyFacts": {
           "originCountry": "German",
@@ -141,7 +118,7 @@
       {
         "id": 10,
         "name": "Russian Toy",
-        "photo": "../img/dog_breeds/american-bobtail.jpg",
+        "photo": "../img/dog_breeds/russian-toy.jpg",
         "about": "The Russian Toy, also known as the Russkiy Toy, is one of the smallest dog breeds. Hailing from Russia, this breed is relatively new to dog fanciers outside its origin country. The Russian Toy was initially bred for dual purposes as an anti-rat dog and a watchdog. The watchful nature remains prominent in the breed, making them quite vocal when guarding their surroundings. ",
         "KeyFacts": {
           "originCountry": "England",
@@ -164,7 +141,7 @@
       {
         "id": 9,
         "name": "Papillon",
-        "photo": "../img/dog_breeds/american-bobtail.jpg",
+        "photo": "../img/dog_breeds/papilllon.jpg",
         "about": "The quick, curious Papillon is a toy dog of singular beauty and upbeat athleticism. Despite his refined appearance, the Pap is truly a 'doggy dog' blessed with a hardy constitution. Papillon fanciers describe their breed as happy, alert, and friendly. A tiny dog, measuring 8 to 11 inches at the shoulder, you can still spot a Papillon a block away thanks to the large, wing-shaped ears that give the breed its name ('papillon' is French for 'butterfly'). Some Paps have erect ears; in others, known as the Phalene type, the ears are down. Paps are dainty and elegant, with a plumed tail, and a long, silky coat of several color combinations, the base color being white.",
         "KeyFacts": {
           "originCountry": "France",
@@ -188,7 +165,7 @@
       {
         "id": 8,
         "name": "Biewer Terrier",
-        "photo": "../img/dog_breeds/american-bobtail.jpg",
+        "photo": "../img/dog_breeds/biewer-terrier.jpg",
         "about": "The Biewer Terrier is a very dedicated, loyal family member and friendly with strangers. A large percentage of the Biewer Terriers are happy-go-lucky dogs, smiling when asked if they are happy. In spite of its small stature, the Biewer is a very hearty, athletic dog and an excellent hunter of vermin. They are lighthearted, have a childlike attitude and like to carry toys in their mouths.",
         "KeyFacts": {
           "originCountry": "France",
@@ -211,8 +188,8 @@
       },
       {
         "id": 11,
-        "name": "Border terrirer",
-        "photo": "../img/dog_breeds/american-bobtail.jpg",
+        "name": "Border Terrier",
+        "photo": "../img/dog_breeds/border-terrier.jpg",
         "about": "Admirers of the upbeat and agile Border Terrier cherish their breed's reputation as a tough, no-frills working terrier. These plucky, happy, and affectionate dogs are popular pets in town and country. The wiry coat is an easy keeper. Border Terriers, standing from 11 to 16 inches at the shoulder, are easy to recognize among other small terriers by their unique head shape'the breed has an 'otter head,' as fanciers say. Another distinguishing trait is that they are longer in leg than other small terriers.",
         "KeyFacts": {
           "originCountry": "United kingdom",
@@ -235,7 +212,7 @@
       {
         "id": 12,
         "name": "Boston Terrier",
-        "photo": "../img/dog_breeds/american-bobtail.jpg",
+        "photo": "../img/dog_breeds/boston-terrier.jpg",
         "about": "The Boston Terrier is a lively little companion recognized by his tight tuxedo jacket, sporty but compact body, and the friendly glow in his big, round eyes. His impeccable manners have earned him the nickname 'The American Gentleman.' Boston Terriers are compact, short-tailed, well-balanced little dogs weighing no more than 25 pounds. The stylish 'tuxedo' coat can be white and either black, brindle, or seal (dark brown). The head is square, the muzzle is short, and the large, round eyes can shine with kindness, curiosity, or mischief. ",
         "KeyFacts": {
           "originCountry": "United Stated",
@@ -259,7 +236,7 @@
       {
         "id": 13,
         "name": "Cavalier King",
-        "photo": "../img/dog_breeds/american-bobtail.jpg",
+        "photo": "../img/dog_breeds/cavalier-king.jpg",
         "about": "The Cavalier King Charles Spaniel wears his connection to British history in his breed's name. Cavaliers are the best of two worlds, combining the gentle attentiveness of a toy breed with the verve and athleticism of a sporting spaniel. The Cavalier's all-around beauty, regal grace, and even temper mark him as one of dogdom's noblemen. A toy spaniel no more than 13 inches high, the Cavalier draws you in with his face: The sweet, gentle, melting expression emanating from large, round eyes is a breed hallmark. Another is the silky, richly colored coat that can be one of four distinct varieties.",
         "KeyFacts": {
           "originCountry": "United kingdom",
@@ -282,7 +259,7 @@
       {
         "id": 14,
         "name": "Fox Terrier (Smooth)",
-        "photo": "../img/dog_breeds/american-bobtail.jpg",
+        "photo": "../img/dog_breeds/fox-terrier.jpg",
         "about": "Smooths are quite similar to their close relatives, Wire Fox Terriers. Like their crispy-coated cousins, Smooths stand no more than 15.5 inches at the shoulder. The distinguishing physical trait, besides coat type, is the head: A Smooth's head is more V-shaped than a Wire's. The dense, flat coat is predominantly white, with black, tan, or black-and-tan markings. These cleverly made hunters are strong and sturdy, but never coarse and clunky. Short-backed and symmetrical, they move with the unwavering grace of a pendulum clock.",
         "KeyFacts": {
           "originCountry": "United kingdom",

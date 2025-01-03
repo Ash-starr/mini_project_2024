@@ -11,21 +11,36 @@ document.addEventListener("DOMContentLoaded", () => {
         return response.json();
       })
       .then((data) => {
-        // Access the 'cats' property directly from the data
+        // Access the 'dogs' property directly from the data
         const breed = findBreedById(data[0].dogs, breedId); // Adjusted to fetch from the first object in the array
         if (breed) {
           displayBreedInfo(breed);
         } else {
-          console.error("Breed not found");
+          displayStayTunedMessage(); // Call a function to display "Stay tuned" message
         }
       })
       .catch((error) => console.error("Error fetching breed info:", error));
   }
 });
 
-// Update this function to search through the 'cats' array
+// Update this function to search through the 'dogs' array
 function findBreedById(dogs, id) {
   return dogs.find((dog) => dog.id == id); // Use find to return the matching cat directly
+}
+
+function displayStayTunedMessage() {
+  const body = document.getElementById("body");
+
+  const messageHtml = `
+    <div class="modal-backdrop"></div>
+    <div class="stay-tuned-container">
+      <div class="icon">📢</div>
+      <h1>Stay Tuned!</h1>
+      <p>We're working hard to bring you more exciting breed details. Please check back soon.</p>
+      <p>Thank you for your patience!</p>
+    </div>`;
+
+  body.innerHTML = messageHtml;
 }
 
 function displayBreedInfo(breed) {
@@ -38,7 +53,7 @@ function displayBreedInfo(breed) {
               <h1>${breed.name}</h1>
            </div>
            <div class="right-box">
-              <p>X</p>
+                <a href="../breed-pages/dog-breeds.html">X</a>
            </div>
         </div>
         <div class="white-box">
@@ -80,7 +95,74 @@ function displayBreedInfo(breed) {
               </div>
            </div>
         </div>
-      </div>`;
+      </div>
+      
+       <!-- footer -->
+   <footer class="footer-distributed">
+
+      <div class="footer-left">
+
+         <h3>PawPrint<span>Paradise</span></h3>
+
+         <p class="footer-links">
+            <a href="#" class="link-1">Home</a>
+
+            <a href="../puppy-kitten/kitten.html">Kittens</a>
+
+            <a href="#">Puppies</a>
+
+            <a href="../breed-pages/dog-breeds.html">Dog Breed</a>
+
+            <a href="../breed-pages/cat-breeds.html">Cat Breed</a>
+
+            <a href="#">Blogs</a>
+         </p>
+
+         <p class="footer-company-name">PawPrintPradise © 2024</p>
+      </div>
+
+      <div class="footer-center">
+
+         <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>PawPrintParadise- sector 35, </span> Nagpur, India-440026</p>
+         </div>
+
+         <div>
+            <i class="fa fa-phone"></i>
+            <p>+91 8080197328</p>
+         </div>
+
+         <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:support@company.com">pawprintparadise@company.com</a></p>
+         </div>
+
+      </div>
+
+      <div class="footer-right">
+
+         <p class="footer-company-about">
+            <span>About the company</span>
+            PawPrintParadise is your trusted source for all things pets. We provide expert tips, breed information, and
+            pet
+            care advice to help you give your furry friends the best life. Whether you're a new or experienced pet
+            parent,
+            we’re here to support you every step of the way!
+         </p>
+
+         <div class="footer-icons">
+
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-google"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+         </div>
+
+      </div>
+
+   </footer>`;
 
   body.innerHTML = infoHtml;
 }

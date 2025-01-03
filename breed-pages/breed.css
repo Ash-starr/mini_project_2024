@@ -308,7 +308,12 @@ nav {
 /* Short coat */
 .short_coat,
 .long_coat,
-.medium_coat {
+.medium_coat,
+.very_small_dog,
+.small_dog,
+.medium_dog,
+.large_dog,
+.very_large_dog {
   width: 100%;
   /* background-color: aqua; */
   padding-bottom: 8vw;
